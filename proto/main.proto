@@ -1,27 +1,8 @@
 syntax = "proto3";
 
-option go_package = "github.com/charafzellou/grpc-go";
+package grpc_golang_template;
 
-package helloworld;
-
-service HelloService {
-  rpc SayHello (InputRequest) returns (OutputRequest) {}
-}
-
-message InputRequest {
-  string name = 1;
-}
-
-message OutputRequest {
-  string message = 1;
-}
-
-
-
-syntax = "proto3";
-
-package yyyyyyyyyyyyy;
-option go_package = "github.com/xxxxxxxxxxxxxx/yyyyyyyyyyyyy";
+option go_package = "github.com/alexandreelkhoury/grpc-go";
 
 service Blockchain {
     rpc Register (Empty) returns (RegisterResponse);

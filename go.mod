@@ -1,6 +1,6 @@
-module github.com/charafzellou/grpc-go
+module github.com/alexandreelkhoury/grpc-go
 
-go 1.21.6
+go 1.21
 
 require (
 	google.golang.org/grpc v1.65.0
